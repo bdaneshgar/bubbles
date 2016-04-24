@@ -16,6 +16,7 @@
 		C64F10F11CCC5B4B00B4F703 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C64F10EF1CCC5B4B00B4F703 /* LaunchScreen.storyboard */; };
 		C64F10FC1CCC5B4B00B4F703 /* BubblesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64F10FB1CCC5B4B00B4F703 /* BubblesTests.swift */; };
 		C64F11071CCC5B4B00B4F703 /* BubblesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64F11061CCC5B4B00B4F703 /* BubblesUITests.swift */; };
+		C64F11151CCC688100B4F703 /* pop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C64F11141CCC688100B4F703 /* pop.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		C64F11021CCC5B4B00B4F703 /* BubblesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BubblesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C64F11061CCC5B4B00B4F703 /* BubblesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubblesUITests.swift; sourceTree = "<group>"; };
 		C64F11081CCC5B4B00B4F703 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C64F11141CCC688100B4F703 /* pop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pop.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				C64F10E81CCC5B4B00B4F703 /* GameViewController.swift */,
 				C64F10EA1CCC5B4B00B4F703 /* Main.storyboard */,
 				C64F10ED1CCC5B4B00B4F703 /* Assets.xcassets */,
+				C64F11141CCC688100B4F703 /* pop.mp3 */,
 				C64F10EF1CCC5B4B00B4F703 /* LaunchScreen.storyboard */,
 				C64F10F21CCC5B4B00B4F703 /* Info.plist */,
 			);
@@ -239,6 +242,7 @@
 				C64F10F11CCC5B4B00B4F703 /* LaunchScreen.storyboard in Resources */,
 				C64F10EE1CCC5B4B00B4F703 /* Assets.xcassets in Resources */,
 				C64F10EC1CCC5B4B00B4F703 /* Main.storyboard in Resources */,
+				C64F11151CCC688100B4F703 /* pop.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

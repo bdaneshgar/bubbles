@@ -17,14 +17,13 @@ class GameScene: SKScene {
     override func didMoveToView(view: SKView) {
         /* Setup your scene here */
         
-        let sprite = SKSpriteNode(imageNamed: "Bubble")
-        sprite.name = "bubble"
-        sprite.size = CGSize(width: 180, height: 180)
-        sprite.position = CGPoint(x: self.frame.size.width/2, y: self.frame.size.height/2)
-        sprite.physicsBody = SKPhysicsBody(circleOfRadius: 95)
-        sprite.physicsBody?.dynamic = false
-        self.addChild(sprite)
-        
+        createBubble()
+        createBubble()
+        createBubble()
+        createBubble()
+        createBubble()
+        createBubble()
+
     }
     
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
@@ -35,7 +34,8 @@ class GameScene: SKScene {
                 if theName == "bubble" {
                     self.removeChildrenInArray([self.nodeAtPoint(location)])
                     score+=1
-                    print("score")
+                    print(score)
+                    createBubble()
                 }
             }
         }
@@ -43,5 +43,20 @@ class GameScene: SKScene {
    
     override func update(currentTime: CFTimeInterval) {
         /* Called before each frame is rendered */
+    }
+    
+    func createBubble(){
+        
+        let newX = Int(arc4random()%1024)
+        let newY = Int(arc4random()%1024)
+        
+        let sprite = SKSpriteNode(imageNamed: "Bubble")
+        sprite.name = "bubble"
+        sprite.size = CGSize(width: 180, height: 180)
+        sprite.position = CGPoint(x: newX, y: newY)
+        sprite.physicsBody = SKPhysicsBody(circleOfRadius: 95)
+        sprite.physicsBody?.dynamic = false
+        self.addChild(sprite)
+        
     }
 }

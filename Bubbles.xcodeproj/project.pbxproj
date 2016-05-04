@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C60E92241CD45CEF00B771AE /* Bubble.png in Resources */ = {isa = PBXBuildFile; fileRef = C60E92231CD45CEF00B771AE /* Bubble.png */; };
 		C64F10E31CCC5B4B00B4F703 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64F10E21CCC5B4B00B4F703 /* AppDelegate.swift */; };
 		C64F10E51CCC5B4B00B4F703 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C64F10E41CCC5B4B00B4F703 /* GameScene.sks */; };
 		C64F10E71CCC5B4B00B4F703 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64F10E61CCC5B4B00B4F703 /* GameScene.swift */; };
@@ -16,7 +17,8 @@
 		C64F10F11CCC5B4B00B4F703 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C64F10EF1CCC5B4B00B4F703 /* LaunchScreen.storyboard */; };
 		C64F10FC1CCC5B4B00B4F703 /* BubblesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64F10FB1CCC5B4B00B4F703 /* BubblesTests.swift */; };
 		C64F11071CCC5B4B00B4F703 /* BubblesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64F11061CCC5B4B00B4F703 /* BubblesUITests.swift */; };
-		C64F11151CCC688100B4F703 /* pop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C64F11141CCC688100B4F703 /* pop.mp3 */; };
+		C6A1B3111CD2999400EA8D85 /* pop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C6A1B3101CD2999400EA8D85 /* pop.mp3 */; };
+		C6A1B3131CD29B8600EA8D85 /* pop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C6A1B3121CD29B8600EA8D85 /* pop.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C60E92231CD45CEF00B771AE /* Bubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bubble.png; sourceTree = "<group>"; };
 		C64F10DF1CCC5B4B00B4F703 /* Bubbles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bubbles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C64F10E21CCC5B4B00B4F703 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C64F10E41CCC5B4B00B4F703 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -52,7 +55,8 @@
 		C64F11021CCC5B4B00B4F703 /* BubblesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BubblesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C64F11061CCC5B4B00B4F703 /* BubblesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubblesUITests.swift; sourceTree = "<group>"; };
 		C64F11081CCC5B4B00B4F703 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C64F11141CCC688100B4F703 /* pop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pop.mp3; sourceTree = "<group>"; };
+		C6A1B3101CD2999400EA8D85 /* pop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pop.mp3; sourceTree = "<group>"; };
+		C6A1B3121CD29B8600EA8D85 /* pop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pop.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,10 +87,12 @@
 		C64F10D61CCC5B4B00B4F703 = {
 			isa = PBXGroup;
 			children = (
+				C6A1B3101CD2999400EA8D85 /* pop.mp3 */,
 				C64F10E11CCC5B4B00B4F703 /* Bubbles */,
 				C64F10FA1CCC5B4B00B4F703 /* BubblesTests */,
 				C64F11051CCC5B4B00B4F703 /* BubblesUITests */,
 				C64F10E01CCC5B4B00B4F703 /* Products */,
+				C60E92231CD45CEF00B771AE /* Bubble.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,7 +115,7 @@
 				C64F10E81CCC5B4B00B4F703 /* GameViewController.swift */,
 				C64F10EA1CCC5B4B00B4F703 /* Main.storyboard */,
 				C64F10ED1CCC5B4B00B4F703 /* Assets.xcassets */,
-				C64F11141CCC688100B4F703 /* pop.mp3 */,
+				C6A1B3121CD29B8600EA8D85 /* pop.mp3 */,
 				C64F10EF1CCC5B4B00B4F703 /* LaunchScreen.storyboard */,
 				C64F10F21CCC5B4B00B4F703 /* Info.plist */,
 			);
@@ -238,11 +244,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6A1B3131CD29B8600EA8D85 /* pop.mp3 in Resources */,
+				C6A1B3111CD2999400EA8D85 /* pop.mp3 in Resources */,
 				C64F10E51CCC5B4B00B4F703 /* GameScene.sks in Resources */,
 				C64F10F11CCC5B4B00B4F703 /* LaunchScreen.storyboard in Resources */,
+				C60E92241CD45CEF00B771AE /* Bubble.png in Resources */,
 				C64F10EE1CCC5B4B00B4F703 /* Assets.xcassets in Resources */,
 				C64F10EC1CCC5B4B00B4F703 /* Main.storyboard in Resources */,
-				C64F11151CCC688100B4F703 /* pop.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +504,7 @@
 				C64F110D1CCC5B4B00B4F703 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C64F110E1CCC5B4B00B4F703 /* Build configuration list for PBXNativeTarget "BubblesTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +513,7 @@
 				C64F11101CCC5B4B00B4F703 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C64F11111CCC5B4B00B4F703 /* Build configuration list for PBXNativeTarget "BubblesUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +522,7 @@
 				C64F11131CCC5B4B00B4F703 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
